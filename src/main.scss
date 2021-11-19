@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e7ecf0;
+}
+.header{
+    width: 100%;
+    height: 58px;
+    background-color: #ffffff;
+    .logo-hufi{
+        margin-left: 383px;
+    }
+    .search{
+        margin-left: 650px;
+        margin-top: -46px;
+        .search-input{
+            width: 260px;
+            height: 25px;
+            border-radius: 20px;
+        }
+    }
+    .navbar{
+        margin-left:1080px;
+        margin-top: -28px;
+        .nav-home{
+            text-decoration: none;
+            padding: 20px;
+            font-family:'Times New Roman', Times, serif;
+            font-weight: 900;
+            color: gray;
+        }
+        .nav-news{
+            text-decoration: none;
+            padding: 20px;
+            font-family:'Times New Roman', Times, serif;
+            font-weight: 900;
+            color: gray;
+        }
+    }
+
+}
+.music{
+    margin-top: 760px;   
+    width: 00px;   
+}
