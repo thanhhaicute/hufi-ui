@@ -1,69 +1,308 @@
 .box-list{
     display: flex;
+    margin: 290px 0 0 -1375px;
     .box-nhacnho{
-        width: 90px;
+        width: 95px;
         height: 120px;
         background-color:#ffffff;
         border-radius:4px;
+        margin-left: 16px;
+        .fa-nhacnho{
+            align-items:center;
+            color:#1da1f2;
+            display:flex;
+            width: 35px;
+            justify-content:center;
+            line-height:17.1429px;
+            margin:25px 0 20px 30px;
+            text-align:center;
+        }
+        .active-nhacnho{
+            text-decoration: none;
+            color:#667580;
+            display:inline;
+            font-size:14px;
+            line-height:17.1429px;
+            text-align:center;
+            margin-left: 20px;
+            display: flex;
+        }
     }
     .box-ketquahoctap{
-        width: 90px;
+        width: 95px;
         height: 120px;
         background-color:#ffffff;
         border-radius:4px;
+        margin-left: 16px;
+        .fa-ketquahoctap{
+            align-items:center;
+            color:#1da1f2;
+            display:flex;
+            width: 30px;
+            justify-content:center;
+            line-height:17.1429px;
+            margin:25px 0 19px 30px;
+            text-align:center;
+        }
+        .active-ketquahoctap{
+            text-decoration: none;
+            color:#667580;
+            display:inline;
+            font-size:14px;
+            line-height:17.1429px;
+            text-align:center;
+            margin-left: 8px;
+            display: flex;
+
+        }
     }
     .box-lichhoctuan{
-        width: 90px;
+        width: 95px;
         height: 120px;
         background-color:#ffffff;
         border-radius:4px;
+        margin-left: 16px;
+        .fa-lichhoctuan{
+            align-items:center;
+            color:#1da1f2;
+            display:flex;
+            width: 30px;
+            justify-content:center;
+            line-height:17.1429px;
+            margin:25px 0 19px 30px;
+            text-align:center;
+        }
+        .active-lichhoctuan{
+            text-decoration: none;
+            color:#667580;
+            display:inline;
+            font-size:14px;
+            line-height:17.1429px;
+            text-align:center;
+            margin-left: 6px;
+            display: flex;
+
+        }
     }
     .box-lichtheotiendo{
-        width: 90px;
+        width: 95px;
         height: 120px;
         background-color:#ffffff;
         border-radius:4px;
+        margin-left: 16px;
+        .fa-lichtheotiendo{
+            align-items:center;
+            color:#1da1f2;
+            display:flex;
+            width: 30px;
+            justify-content:center;
+            line-height:17.1429px;
+            margin:25px 0 19px 30px;
+            text-align:center;
+        }
+        .active-lichtheotiendo{
+            text-decoration: none;
+            color:#667580;
+            display:inline;
+            font-size:14px;
+            line-height:17.1429px;
+            text-align:center;
+            margin-left: 1px;
+            display: flex;
+
+        }
     }
     .box-chuongtrinhkhhung{
-        width: 90px;
+        width: 95px;
         height: 120px;
         background-color:#ffffff;
         border-radius:4px;
+        margin-left: 16px;
+        .fa-chuongtrinhkhhung{
+            align-items:center;
+            color:#1da1f2;
+            display:flex;
+            width: 30px;
+            justify-content:center;
+            line-height:17.1429px;
+            margin:25px 0 19px 30px;
+            text-align:center;
+        }
+        .active-chuongtrinhkhhung{
+            text-decoration: none;
+            color:#667580;
+            display:inline;
+            font-size:14px;
+            line-height:17.1429px;
+            text-align:center;
+            margin-left: 0px;
+            display: flex;
+
+        }
     }
     .box-dangkyhocphan{
-        width: 90px;
+        width: 95px;
         height: 120px;
         background-color:#ffffff;
         border-radius:4px;
+        margin-left: 16px;
+        .fa-dangkyhocphan{
+            align-items:center;
+            color:#1da1f2;
+            display:flex;
+            width: 30px;
+            justify-content:center;
+            line-height:17.1429px;
+            margin:25px 0 19px 30px;
+            text-align:center;
+        }
+        .active-dangkyhocphan{
+            text-decoration: none;
+            color:#667580;
+            display:inline;
+            font-size:14px;
+            line-height:17.1429px;
+            text-align:center;
+            margin-left: 3px;
+            display: flex;
+
+        }
     }
     .box-tracuucongnu{
-        width: 90px;
+        width: 95px;
         height: 120px;
         background-color:#ffffff;
         border-radius:4px;
+        margin-left: 16px;
+        .fa-tracuucongnu{
+            align-items:center;
+            color:#1da1f2;
+            display:flex;
+            width: 20px;
+            justify-content:center;
+            line-height:17.1429px;
+            margin:25px 0 9px 30px;
+            text-align:center;
+        }
+        .active-tracuucongnu{
+            text-decoration: none;
+            color:#667580;
+            display:inline;
+            font-size:14px;
+            line-height:17.1429px;
+            text-align:center;
+            margin-left: 3.5px;
+            display: flex;
+
+        }
     }
     .box-thanhtoantructuyen{
-        width: 90px;
+        width: 95px;
         height: 120px;
         background-color:#ffffff;
         border-radius:4px;
+        margin-left: 16px;
+        .fa-thanhtoantructuyen{
+            align-items:center;
+            color:#1da1f2;
+            display:flex;
+            width: 20px;
+            justify-content:center;
+            line-height:17.1429px;
+            margin:25px 0 19px 30px;
+            text-align:center;
+        }
+        .active-thanhtoantructuyen{
+            text-decoration: none;
+            color:#667580;
+            display:inline;
+            font-size:14px;
+            line-height:17.1429px;
+            text-align:center;
+            margin-left: 0px;
+            display: flex;
+        }
     }
     .box-thanhtoannoitru{
-        width: 90px;
+        width: 95px;
         height: 120px;
         background-color:#ffffff;
         border-radius:4px;
+        margin-left: 16px;
+        .fa-thanhtoannoitru{
+            align-items:center;
+            color:#1da1f2;
+            display:flex;
+            width: 20px;
+            justify-content:center;
+            line-height:17.1429px;
+            margin:25px 0 19px 30px;
+            text-align:center;
+        }
+        .active-thanhtoannoitru{
+            text-decoration: none;
+            color:#667580;
+            display:inline;
+            font-size:14px;
+            line-height:17.1429px;
+            text-align:center;
+            margin-left: 0px;
+            display: flex;
+        }
     }
     .box-phieuthutonghop{
-        width: 90px;
+        width: 95px;
         height: 120px;
         background-color:#ffffff;
         border-radius:4px;
+        margin-left: 16px;
+        .fa-phieuthutonghop{
+            align-items:center;
+            color:#1da1f2;
+            display:flex;
+            width: 20px;
+            justify-content:center;
+            line-height:17.1429px;
+            margin:25px 0 19px 30px;
+            text-align:center;
+        }
+        .active-phieuthutonghop{
+            text-decoration: none;
+            color:#667580;
+            display:inline;
+            font-size:14px;
+            line-height:17.1429px;
+            text-align:center;
+            margin-left: 2px;
+            display: flex;
+        }
     }
     .box-hopthusinhvien{
-        width: 90px;
+        width: 95px;
         height: 120px;
         background-color:#ffffff;
         border-radius:4px;
+        margin-left: 16px;
+        .fa-hopthusinhvien{
+            align-items:center;
+            color:#1da1f2;
+            display:flex;
+            width: 20px;
+            justify-content:center;
+            line-height:17.1429px;
+            margin:25px 0 22px 30px;
+            text-align:center;
+        }
+        .active-hopthusinhvien{
+            text-decoration: none;
+            color:#667580;
+            display:inline;
+            font-size:14px;
+            line-height:17.1429px;
+            text-align:center;
+            margin-left: 0px;
+            display: flex;
+
+        }
     }
 }

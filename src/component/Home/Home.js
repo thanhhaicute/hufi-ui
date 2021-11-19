@@ -6,13 +6,26 @@ import {
   Switch,
   NavLink
 } from 'react-router-dom';
-import boxList from './boxList';
+
 import avata from "../../image/avata.png"
 import remind from "../../image/remind.svg"
 import calenderlearn from "../../image/calenderlearn.svg"
 import calendarexam from "../../image/calendarexam.svg"
+import tracuucongnu from "../../image/congno.png"
+import dangkyhocphan from "../../image/dangkyhocphan.png"
+import ketquahoctap from "../../image/hoctap.png"
+import hopthusinhvien from "../../image/hopthusinhvien.png"
+import chuongtrinhkhhung from "../../image/khungchuongtrinh.png"
+import lichhoctuan from "../../image/lichhoc.png"
+import lichtheotiendo from "../../image/lichtheotiendo.png"
+import nhacnho from "../../image/nhacnho.png"
+import phieuthutonghop from "../../image/phieuthutonghop.png"
+import thanhtoannoitru from "../../image/thanhtoannoitru.png"
+import thanhtoantructuyen from "../../image/thanhtoantructuyen.png"
 
+import "../Home/boxList.css"
 import "../Home/home.css"
+import "../Home/footer.css"
 class Home extends Component {
   constructor(props) {
     super(props);
@@ -94,11 +107,64 @@ class Home extends Component {
                     </div>
                   </div>             
               </div>
+              {/* CAC BOX CHON */}
+              <div className="box-list">
+                <div className="box-nhacnho">
+                  <img className="fa-nhacnho" src={nhacnho} alt=""/>
+                  <NavLink className="active-nhacnho" to="/remind">Nhắc nhở</NavLink>
+                </div>
+                <div className="box-ketquahoctap">
+                  <img className="fa-ketquahoctap" src={ketquahoctap} alt=""/>
+                  <NavLink className="active-ketquahoctap" to="/ketquahoctap">Kết quả học tập</NavLink>
+                </div>
+                <div className="box-lichhoctuan">
+                  <img className="fa-lichhoctuan" src={lichhoctuan} alt=""/>
+                  <NavLink className="active-lichhoctuan" to="/calenderlearn">Lịch theo tuần</NavLink>
+                </div>
+                <div className="box-lichtheotiendo">
+                  <img className="fa-lichtheotiendo" src={lichtheotiendo} alt=""/>
+                  <NavLink className="active-lichtheotiendo" to="/lichtheotiendo">Lịch theo tiến độ</NavLink>
+                </div>
+                <div className="box-chuongtrinhkhhung">
+                  <img className="fa-chuongtrinhkhhung" src={chuongtrinhkhhung} alt=""/>
+                  <NavLink className="active-chuongtrinhkhhung" to="/chuongtrinhkhung">Chương trình khung</NavLink>
+                </div>
+                <div className="box-dangkyhocphan">
+                  <img className="fa-dangkyhocphan" src={dangkyhocphan} alt=""/>
+                  <NavLink className="active-dangkyhocphan" to="/dangkyhocphan">Đăng ký học phần</NavLink>
+                </div>
+                <div className="box-tracuucongnu">
+                  <img className="fa-tracuucongnu" src={tracuucongnu} alt=""/>
+                  <NavLink className="active-tracuucongnu" to="/tracuucongnu">Tra cứu công nợ</NavLink>
+                </div>
+                <div className="box-thanhtoantructuyen">
+                  <img className="fa-thanhtoantructuyen" src={thanhtoantructuyen} alt=""/>
+                  <NavLink className="active-thanhtoantructuyen" to="/thanhtoantructuyen">Thanh toán trực tuyến</NavLink>
+                </div>
+                <div className="box-thanhtoannoitru">
+                  <img className="fa-thanhtoannoitru" src={thanhtoannoitru} alt=""/>
+                  <NavLink className="active-thanhtoannoitru" to="/thanhtoannoitru">Thanh toán nội trú</NavLink>
+                </div>
+                <div className="box-phieuthutonghop">
+                  <img className="fa-phieuthutonghop" src={phieuthutonghop} alt=""/>
+                  <NavLink className="active-phieuthutonghop" to="/phieuthutonghop">Phiếu thu tổng hợp</NavLink>
+                </div>
+                <div className="box-hopthusinhvien">
+                  <img className="fa-hopthusinhvien" src={hopthusinhvien} alt=""/>
+                  <NavLink className="active-hopthusinhvien" to="/hopthusinhvien">Hộp thư sinh viên</NavLink>
+                </div>
+              </div>
+
+              {/* Footer */}
+              <div className="box-footer">
+                
+                  <div className="box-bangdiem"></div>
+                  <div className="box-tiendohoctap"></div>
+                  <div className="box-lophocphan"></div>
+
+              </div>
           </div>
-
-          <boxList/>
-
-          
+                 
       </Router>
     );
   }
