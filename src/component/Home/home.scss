@@ -1,65 +1,245 @@
-.main-home{
-    margin-top: 9px;
-    margin-left: 385px;
-    border-radius: 20px;
-    .info-student{
-        width: 690px;
-        height: 280px;
-        background-color: #fff;
-        border-radius: 10px;
-        .info-text{
-            font-size: 20px;
-            font-weight: 800;
-            padding: 10px;
-            color:gray;
-        }
-        .info-avatar{
-            margin-left: 20px;
-        }
-        .link-account{
-            margin-left: 60px;
-            text-decoration: none;
-        }
-        .text-info-account{
-            font-size: 16px;
-            margin-left: 210px;
-            margin-top: -170px;
-        }
-        .text-info-account1{
-            font-size: 16px;
-            margin-left: 460px;
-            margin-top: -170px;
-        }
-    }
-    .info-box1{
-        width: 360px;
-        height: 280px;
-        margin-left: 700px;
-        margin-top: -280px;
-        .box1-top{
-            width: 360px;
-            height: 130px;
-            background-color: #ffff;
-            border-radius: 10px;
-        }
-        .box1-bottom{
-            width: 360px;
-            height: 150px;
-            display: flex;
-            margin-top: 10px;
-            .box1-bottom-left{
-                width: 190px;
-                height: 140px;
-                background-color: #ffff;
-                border-radius: 10px;
+.main-home {
+    margin: 0 0 -575px 380px; //TOP RIGHT BOTOM LEFT
+    display: flex;
+    margin-top: 20px;
+    .info-student {
+        width: 659px;
+        height: 248px;
+        background-color: #ffffff;
+        border-radius: 4px;
+        color: #667580;
+        font-size: 12px;
+        line-height: 17.1429px;
+        margin: 0px 0px 15px;
+        padding: 10px;
+        .portlet-title{
+            width:639px ;
+            height: 41px;
+            color:#667580;
+            font-size: 12px;
+            line-height:17.1429px;
+            margin:0px 0px 10px;
+            .caption-hufi{
+                color:#667580;
+                display:inline;
+                font-size:18px;
+                font-weight:700;
+                line-height:37px;
             }
-            .box1-bottom-right{
-                width: 190px;
-                height: 140px;
-                background-color: #ffff;
-                margin-left: 10px;
-                border-radius: 10px;
+        }
+        .col-sm{
+            width: 163px;
+            height: 147;
+            color:#667580;
+            font-size:12px;
+            line-height: 17.1429px;
+            padding:0px 7.5px;
+            .img-reponsive{
+                width: 148px;
+                height: 120px;
+                color:#667580;
+                font-size: 12px;
+                line-height:17.1429px;
+            }
+            .color-active{
+                width: 63px;
+                height: 14px;
+                color:#1da1f2;
+                display:inline;
+                font-family:Tahoma;
+                font-size:12px;
+                line-height:17.1429px;
+                text-align: left;
+                text-decoration: none;
+                margin-left: 20px;
+            }
+        }
+        .form-flex{
+            display: flex;
+            .form-body1{
+                color:#667580;
+                display:inline;
+                font-size:14px;
+                line-height:17.1429px;
+                margin-left: 170px;
+                margin-top: -110px;
+                .font-form1{
+                    color:#667580;
+                    display:inline;
+                    font-size:16px;
+                    font-weight:700;
+                    line-height:17.1429px;
+                }
+            }
+            .form-body2{
+                color:#667580;
+                display:inline;
+                font-size:14px;
+                line-height:17.1429px;
+                margin-left: 110px;
+                margin-top: -110px;
+                .font-form2{
+                    color:#667580;
+                    display:inline;
+                    font-size:16px;
+                    font-weight:700;
+                    line-height:17.1429px;
+                }
+            }       
+        }
+        
+    }
+    .box-three {
+        width: 659px;
+        height: 248px;
+        margin-left: 20px;
+        .remind-box{
+            width: 466px;
+            height: 97px;
+            background-color:#ffffff;
+            border-radius:4px;
+            color:#667580;
+            font-size:12px;
+            line-height:17.1429px;
+            margin:0px 0px 15px;
+            padding:15px;
+            box-shadow: #000000 -1px 1px 6px 0px;
+            .name-remid{
+                color:#667580;
+                font-family:Open Sans;
+                font-size:12px;
+                font-weight:300;
+                line-height:13.2px;
+                margin: 0px 0px 5px;
+            }
+            .number-remid{
+                color:#667580;
+                font-size:36px;
+                line-height:51.4286px;
+            }
+            .active-remind{
+                color:#1da1f2;
+                display:inline;
+                font-family:Tahoma;
+                font-size: 12px;
+                line-height:17.1429px;
+                text-decoration: none;
+            }
+            .fa-bel{
+                border-color:#667580;
+                border-radius:100%;
+                border-style:solid;
+                border-width:1px;
+                color:#667580;
+                font-size:13px;
+                width: 17px;
+                margin-left: 450px;
+                margin: -70px 10px 27px 440px ;//TOP RIGHT BOTOM LEFT
+                
+            }
+
+        }
+        .box-calender{
+            width: 466px;
+            height: 97px;
+            display: flex;
+            .calender-learn{
+                width: 246px;
+                height: 126px;
+                background-color:#e0fbff;
+                border-radius:4px;
+                box-shadow:#000000 -1px 1px 6px 0px;
+                color: #4da1e8;
+                font-size:12px;
+                line-height:17.1429px;
+                .name-calenderlearn{
+                    color:#667580;
+                    font-family:Open Sans;
+                    font-size:12px;
+                    font-weight:300;
+                    line-height:13.2px;
+                    margin: 10px 10px 0px 5px;//TOP RIGHT BOTOM LEFT
+                }
+                .number-calenderlearn{
+                    color:#667580;
+                    font-size:36px;
+                    line-height:51.4286px;
+                    margin-left: 10px;
+                }
+                .active-calenderlearn{
+                    color:#1da1f2;
+                    display:inline;
+                    font-family:Tahoma;
+                    font-size: 12px;
+                    line-height:17.1429px;
+                    text-decoration: none;
+                    margin-left: 10px;
+
+                }
+                .fa-learn{
+                    border-color:#4da1e8;
+                    border-radius:100%;
+                    border-style:solid;
+                    border-width:1px;
+                    color:#4da1e8;
+                    display:inline-block;
+                    font-size:13px;
+                    line-height:14px;
+                    padding:7px;
+                    width: 17px;
+                    margin: -70px 10px 2px 200px ;//TOP RIGHT BOTOM LEFT
+
+                }
+            }
+            .calender-exam{
+                width: 246px;
+                height: 126px;
+                background-color: #fff2d4;
+                border-radius:4px;
+                box-shadow:#000000 -1px 1px 6px 0px;
+                color:#ff9205;
+                font-size: 12px;
+                line-height:17.1429px; 
+                margin-left: 20px;
+                margin-right: -30px;
+                .name-calenderexam{
+                    color:#667580;
+                    font-family:Open Sans;
+                    font-size:12px;
+                    font-weight:300;
+                    line-height:13.2px;
+                    margin: 10px 10px 0px 5px;//TOP RIGHT BOTOM LEFT
+                }
+                .number-calenderexam{
+                    color:#667580;
+                    font-size:36px;
+                    line-height:51.4286px;
+                    margin-left: 10px;
+                }
+                .active-calenderexam{
+                    color:#1da1f2;
+                    display:inline;
+                    font-family:Tahoma;
+                    font-size: 12px;
+                    line-height:17.1429px;
+                    text-decoration: none;
+                    margin-left: 10px;
+                }
+                .fa-exam{
+                    border-color:#4da1e8;
+                    border-radius:100%;
+                    border-style:solid;
+                    border-width:1px;
+                    color:#4da1e8;
+                    display:inline-block;
+                    font-size:13px;
+                    line-height:14px;
+                    padding:7px;
+                    width: 17px;
+                    margin: -70px 10px 7px 200px ;//TOP RIGHT BOTOM LEFT
+                }
             }
         }
     }
 }
+

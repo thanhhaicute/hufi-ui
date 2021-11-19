@@ -26,7 +26,7 @@ class App extends Component {
     return (
       <Router>
         <div className="header">
-          <NavLink className="logo-hufi" to="/Home">
+          <NavLink className="logo-hufi" to="/">
               <img src={logo} alt="logo" width="260px"/>
           </NavLink>
           <form className="search">
@@ -34,7 +34,7 @@ class App extends Component {
               {/* <input type="submit" value="Submit" /> */}
           </form>
           <div className="navbar">
-            <NavLink className="nav-home" to="/Home">
+            <NavLink className="nav-home" to="/">
               <img src={home} alt="" width="14px"/>&nbsp;
               Trang chủ</NavLink>
             <NavLink className="nav-news" to="/News">
@@ -45,7 +45,7 @@ class App extends Component {
         </div>
 
         <Switch>
-          <Route exact path="/Home" component={Home} />
+          <Route exact path="/" component={Home} />
         </Switch>
         <ReactAudioPlayer className="music"
         src={music}

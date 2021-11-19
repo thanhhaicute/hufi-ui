@@ -6,8 +6,12 @@ import {
   Switch,
   NavLink
 } from 'react-router-dom';
+import boxList from './boxList';
 import avata from "../../image/avata.png"
 import remind from "../../image/remind.svg"
+import calenderlearn from "../../image/calenderlearn.svg"
+import calendarexam from "../../image/calendarexam.svg"
+
 import "../Home/home.css"
 class Home extends Component {
   constructor(props) {
@@ -26,6 +30,9 @@ class Home extends Component {
         loaiHinhDaoTao:"Chính quy",
         nganhHoc:"Công nghệ thông tin"
       },
+      numberRemind:12,
+      numberLearn:2,
+      numberExam: 5,
     };
 
   }
@@ -34,52 +41,62 @@ class Home extends Component {
       <Router>
           <div className="main-home">
               <div className="info-student">
-                  <div className="info-text">
-                    <span>Thông tin sinh viên</span>
-                  </div>
-                  <hr/>
-                  <div className="info-avatar">
-                    <img src={avata} alt="" width="172px"/>
-                  </div>
-                  <NavLink className="link-account" to="/account">
-                      Xem chi tiết
-                  </NavLink>
+                <div className="portlet-title">
+                  <div className="caption-hufi">Thông tin sinh viên</div>
+                </div><hr/>
 
-                  <div className="text-info-account">
-                    <span>MSSV: {this.state.accountData.mssv}</span><p/>
-                    <span>Họ tên: {this.state.accountData.nameSV}</span><p/>
-                    <span>Giới tính: {this.state.accountData.gioiTinh}</span><p/>
-                    <span>Ngày sinh: {this.state.accountData.ngaySinh}</span><p/>
-                    <span>Nơi sinh: {this.state.accountData.noiSinh}</span><p/>
+                <div className="col-sm">
+                  <div className="img-reponsive">
+                      <img src={avata} alt="" width="115px"/>
                   </div>
-
-                  <div className="text-info-account1">
-                    <span>MSSV: {this.state.accountData.lopHoc}</span><p/>
-                    <span>Họ tên: {this.state.accountData.khoaHoc}</span><p/>
-                    <span>Giới tính: {this.state.accountData.bacDaoTao}</span><p/>
-                    <span>Ngày sinh: {this.state.accountData.loaiHinhDaoTao}</span><p/>
-                    <span>Nơi sinh: {this.state.accountData.nganhHoc}</span><p/>
+                  <NavLink className="color-active" to="/account">Xem chi tiết</NavLink>
+                </div>
+                <div className="form-flex">
+                  <div className="form-body1">
+                    <span>MSSV :<span className="font-form1">{this.state.accountData.mssv}</span></span><p/>
+                    <span>Họ tên :<span className="font-form1">{this.state.accountData.nameSV}</span></span><p/>
+                    <span>Giới tính :<span className="font-form1">{this.state.accountData.gioiTinh}</span></span><p/>
+                    <span>Ngày sinh :<span className="font-form1">{this.state.accountData.ngaySinh}</span></span><p/>
+                    <span>Nơi sinh :<span className="font-form1">{this.state.accountData.noiSinh}</span></span><p/>
                   </div>
-
-                  
+                  <div className="form-body2">
+                    <span>Lớp học :<span className="font-for2">{this.state.accountData.lopHoc}</span></span><p/>
+                    <span>Khóa học :<span className="font-form2">{this.state.accountData.khoaHoc}</span></span><p/>
+                    <span>Bậc đào tạo :<span className="font-form2">{this.state.accountData.bacDaoTao}</span></span><p/>
+                    <span>Loại hình đào tạo :<span className="font-form2">{this.state.accountData.loaiHinhDaoTao}</span></span><p/>
+                    <span>Ngành :<span className="font-form2">{this.state.accountData.nganhHoc}</span></span><p/>
+                  </div>
+                </div>
               </div>
-              <div className="info-box1">
-                  <div className="box1-top">
-                      <div className="text-remind">
-                        <span>Nhắc nhở mới, chưa xem</span>
-                      </div>
-                      <span className="number-remind">0</span>
-                      <NavLink to="/remind">
-                          Xem liên kết
-                      </NavLink>
-                      {/* <img src={remind} alt=""/> */}
+                
+              
+
+              <div className="box-three">
+                  <div className="remind-box">
+                      <div className="name-remid">Nhắc nhở mới, chưa xem</div>
+                      <div className="number-remid">{this.state.numberRemind}</div>
+                      <img className="fa-bel" src={remind} alt=""/>
+                      <NavLink className="active-remind" to="/remind">Xem chi tiết</NavLink>
                   </div>
-                  <div className="box1-bottom">
-                      <div className="box1-bottom-left"></div>
-                      <div className="box1-bottom-right"></div>
-                  </div>
+
+                  <div className="box-calender">
+                    <div className="calender-learn">
+                      <div className="name-calenderlearn">Lịch học trong tuầnm</div>
+                      <div className="number-calenderlearn">{this.state.numberLearn}</div>
+                      <img className="fa-learn" src={calenderlearn} alt=""/>
+                      <NavLink className="active-calenderlearn" to="/calenderlearn">Xem chi tiết</NavLink>
+                    </div>
+                    <div className="calender-exam">
+                      <div className="name-calenderexam">Lịch thi trong tuần</div>
+                      <div className="number-calenderexam">{this.state.numberExam}</div>
+                      <img className="fa-exam" src={calendarexam} alt=""/>
+                      <NavLink className="active-calenderexam" to="/calenderexam">Xem chi tiết</NavLink>
+                    </div>
+                  </div>             
               </div>
           </div>
+
+          <boxList/>
 
           
       </Router>
