@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7cfa85cf.chunk.css",
+    "main.js": "/static/js/main.860460ec.chunk.js",
+    "main.js.map": "/static/js/main.860460ec.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.406dd86f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.406dd86f.js.map",
+    "static/js/2.d7405f71.chunk.js": "/static/js/2.d7405f71.chunk.js",
+    "static/js/2.d7405f71.chunk.js.map": "/static/js/2.d7405f71.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.7cfa85cf.chunk.css.map": "/static/css/main.7cfa85cf.chunk.css.map",
+    "static/js/2.d7405f71.chunk.js.LICENSE.txt": "/static/js/2.d7405f71.chunk.js.LICENSE.txt",
+    "static/media/avata.e5117e8e.png": "/static/media/avata.e5117e8e.png",
+    "static/media/calendarexam.5866c568.svg": "/static/media/calendarexam.5866c568.svg",
+    "static/media/calenderlearn.3c2bd673.svg": "/static/media/calenderlearn.3c2bd673.svg",
+    "static/media/home.831db11d.svg": "/static/media/home.831db11d.svg",
+    "static/media/logo.82dd981b.png": "/static/media/logo.82dd981b.png",
+    "static/media/music.d02d8d99.ogg": "/static/media/music.d02d8d99.ogg",
+    "static/media/news.415181b7.svg": "/static/media/news.415181b7.svg",
+    "static/media/remind.415181b7.svg": "/static/media/remind.415181b7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.406dd86f.js",
+    "static/js/2.d7405f71.chunk.js",
+    "static/css/main.7cfa85cf.chunk.css",
+    "static/js/main.860460ec.chunk.js"
+  ]
+}
